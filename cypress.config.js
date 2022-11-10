@@ -17,11 +17,12 @@ module.exports = defineConfig({
   viewportHeight: 768,
   e2e: {
     specPattern: "**/*.feature",
-    supportFile: false,
+    // supportFile: false,
     setupNodeEvents
   },
   env: {
     allureReuseAfterSpec: true,
-    allureResultsPath: "allure-results"
+    allureResultsPath: "allure-results",
+    allureAddVideoOnPass: true
   }
 });

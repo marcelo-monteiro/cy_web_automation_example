@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "open": "yarn run cypress open",
-    "tests:report": "yarn cypress run --env allure=true --browser chrome --config video=true"
+    "open": "cypress open",
+    "tests:report": "cypress run --env allure=true --browser chrome --config video=true"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^13.1.0",

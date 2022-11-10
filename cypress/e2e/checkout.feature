@@ -1,4 +1,4 @@
-Feature: Validate an e-commerce homepage functionalities
+Feature: Validate a user journey 
 
 Background: I am on the ecommerce homepage
     Given I am on the "https://demo.spreecommerce.org/"
