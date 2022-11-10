@@ -1,0 +1,29 @@
+# Homepage Elements
+
+dropdownLogin: '#account-button > svg'
+loginButton: '[href="/login"]'
+sportsWear: ':nth-child(3) > .nav-link'
+
+# Login page Elements
+
+inputUserEmail: '#spree_user_email'
+inputPassword: '#spree_user_password'
+submitLogin: '#new_spree_user > .btn'
+linkForgotYourPass: 'a[href="/password/recover"]'
+
+# Reset password page Elements
+
+inputResetPassword: 'div[class="form-group"] > input[type="email"]'
+buttonResetPassword: '#new_spree_user > div:nth-child(3) > input'
+
+# Sportswear Catalog Page
+
+productShinedPants: '#product_110 > a'
+radioSmallSize: 'label[for=variant_option_value_id_3_24]'
+buttonAddCart: '#add-to-cart-button'
+buttonGoCheckout: 'a[href="/checkout"]'
+
+# Checkout Page
+
+buttonSaveAndContinue: '[data-hook="buttons"] > .btn'
+radioCheck: ':nth-child(2) > .form-check-label'
