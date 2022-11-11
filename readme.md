@@ -1,4 +1,4 @@
-# Automated Web Tests Suite
+# Automated Web Tests Suite with Cypress
 These tests suit runs only in local environment.
 All depencies must be installed locally:
 
